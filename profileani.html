@@ -1,0 +1,278 @@
+<html>
+   <head>
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
+        <style>
+        
+.header{
+     position:none;
+  top:0px;
+  left:0px;
+  width:100%;
+  color:GRAY;
+  background:#333;
+  padding:1%;
+        
+       }
+body {
+    width: 100%;
+    height: 100%;
+    background-color:pink;
+    position: relative;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 25s;
+    -webkit-animation-iteration-count:infinite; 
+    -webkit-animation-delay:5s; 
+    animation-name:example;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-delay:5s;   
+}
+
+@-webkit-keyframes example {
+    0%   {background-color:#ff99cc;}
+    25%  {background-color:#ffff1a;}
+    50%  {background-color:#99ccff;}
+    75%  {background-color:#80ffaa;}
+    100% {background-color:#d65cad;}
+}
+
+@keyframes example {
+    0%   {background-color: #80ff80;}
+    25%  {background-color:#ffff1a;}
+    50%  {background-color: #99ccff;}
+    75%  {background-color: #ff99cc;}
+    100% {background-color:#4dffff;}
+}
+.image {
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: none;
+    width: 30%;
+    height:50%;
+     opacity: 0.5;
+     display:block;
+     margin:auto;
+
+}
+
+.image:hover {
+   opacity: 1.0;
+    box-shadow: 0px 5px 5px 0px rgba(0, 140, 186, 1);
+}
+.ball1 {
+    width: 15px;
+    height: 15px;
+    color:yellow;
+    border-radius:none;
+    position: absolute;
+    -webkit-animation-name: ball11;
+    -webkit-animation-duration: 14s;
+      -webkit-animation-iteration-count:infinite; 
+    -webkit-animation-delay:5s; 
+    animation-name: ball11;
+    animation-duration: 14s;
+    animation-iteration-count:infinite; 
+    animation-delay:5s; 
+}
+
+@-webkit-keyframes ball11 {
+    0%   {background-color:red; left:0%; top:0%;}
+    25%  {background-color:yellow; left:100%; top:10%;}
+    50%  {background-color:blue; left:50%; top:200%;}
+    75%  {background-color:green; left:0%; top:20%;}
+    100% {background-color:red; left:72%; top:0%;}
+}
+
+/* Standard syntax */
+@keyframes ball11 {
+    0%   {color:blue; left:0%; top:0%;}
+    25%  {color:yellow; left:100%; top:0%;}
+    50%  {color:pink; left:50%; top:200%;}
+    75%  {color:green; left:0%; top:20%;}
+    100% {color:red; left:0%; top:0%;}
+}
+.ball2 {
+    width: 15px;
+    height: 15px;
+    color: pink;
+    border-radius:none;
+    position: relative;
+    -webkit-animation-name: ball;
+    -webkit-animation-duration: 14s;
+      -webkit-animation-iteration-count:infinite; 
+    -webkit-animation-delay:5s; 
+    animation-name: ball22;
+    animation-duration: 16s;
+    animation-iteration-count:infinite; 
+    animation-delay:1s; 
+}
+
+@-webkit-keyframes ball22 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:100%; top:200%;}
+    50%  {background-color:blue; left:50%; top:92%;}
+    75%  {background-color:green; left:90%; top:54%;}
+    100% {background-color:red; left:52%; top:26%;}
+}
+
+/* Standard syntax */
+@keyframes ball22{
+    0%   {color:yellow; left:100%; top:0%;}
+    25%  {color:pink; left:40%; top:200%;}
+    50%  {color:blue; left:0%; top:35%;}
+    75%  {color:green; left:55%; top:0%;}
+    100% {color:red; left:100%; top:0%;}
+}
+.ball3{
+    width: 15px;
+    height: 15px;
+    color: yellow;
+    border-radius:none;
+    position: absolute;
+    -webkit-animation-name: ball33;
+    -webkit-animation-duration: 14s;
+      -webkit-animation-iteration-count:infinite; 
+    -webkit-animation-delay:5s; 
+    animation-name: ball33;
+    animation-duration: 12s;
+    animation-iteration-count:infinite; 
+    animation-delay:3s; 
+}
+
+@-webkit-keyframes ball33{
+    0%   {background-color:red; left:50px; top:0px;}
+    25%  {background-color:yellow; left:100%; top:10%;}
+    50%  {background-color:blue; left:50%; top:29%;}
+    75%  {background-color:green; left:25%; top:94%;}
+    100% {background-color:red; left:72%; top:56%;}
+}
+
+/* Standard syntax */
+@keyframes ball33 {
+    0%   {color:green; left:0%; top:150%;}
+    25%  {color:yellow; left:20%; top:0%;}
+    50%  {color:blue; left:100%; top:150%;}
+    75%  {color:pink; left:75%; top:200%;}
+    100% {color:red; left:0%; top:150%;}
+}
+.ball4 {
+    width: 15px;
+    height: 15px;
+    color: blue;
+    border-radius:none;
+    position: relative;
+    
+    -webkit-animation-name: ball44;
+    -webkit-animation-duration: 14s;
+      -webkit-animation-iteration-count:infinite; 
+    -webkit-animation-delay:5s; 
+    animation-name: ball44;
+    animation-duration: 10s;
+    animation-iteration-count:infinite; 
+    animation-delay:7s; 
+}
+
+@-webkit-keyframes ball44 {
+    0%   {background-color:red; left:20%; top:200%;}
+    25%  {background-color:yellow; left:100%; top:80%;}
+    50%  {background-color:blue; left:70%; top:29%;}
+    75%  {background-color:green; left:35%; top:94%;}
+    100% {background-color:red; left:40%; top:50%;}
+}
+
+/* Standard syntax */
+@keyframes ball44 {
+    0%   {color:red; left:20%; top:200%;}
+    25%  {color:yellow; left:100%; top:80%;}
+    50%  {color:blue; left:70%; top:0%;}
+    75%  {color:green; left:0%; top:100%;}
+    100% {color:pink; left:20%; top:200%;}
+}
+.dp{
+  text-align:center;
+  padding:0% 10% ;
+  line-height: 1.5;
+
+  }
+.dp {
+    position: relative;
+    display: inline-block;
+}
+
+.dropc {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(255,06,50,0.8);
+    padding: 4px 4px;
+    z-index: 1;
+    text-align:justify;
+    border:2px solid black;
+    border-radius:20%;
+    box-shadow:20% 20%rbga(255,154,60,0.8);
+}
+
+.dp:hover .dropc {
+    display: block;
+}
+footer i{
+  margin-right:3%;
+  margin-bottom:5%; 
+}
+
+</style>
+        <title>PROFILE</title>
+   </head>
+    <body>
+    <div class="header">
+    <h1><b>MY PROFILE</b></h1>
+      </div>
+<div class="ball1"><i class="fa fa-cloud"></i> </div>
+<div class="ball2"><i class="fa fa-cloud"></i></div>
+<div class="ball3"><i class="fa fa-cloud"></i></div>
+<div class="ball4"><i class="fa fa-cloud"></i></div>
+
+        <a href="anisha.jpg"> 
+        <img class="image" src="anisha.jpg" alt="ani" width=30% height=30%></a>
+        <br><br>
+    
+        <div class="dp">
+          <i style="font-size:30px;font-style:sans-serif;color:blue"><em>This is Anisha Agrawal!!</em></i>
+            
+          <div class="dropc">
+            <h4 style="padding:0% 30%">PEOPLE SAY!!!</h4>
+              <ol style="list-style-type:circle;color:black;overflow:auto">
+                  <li>I HATE CRUELTY</li>
+                  <li>I FIGHT INJUSTICE</li>
+                  <li>I NEVER GIVE UP</li>
+                  <li>I MAKE TIME FOR MY FAMILY</li>
+                  <li>I LIKE TO EXPLORE</li>
+                  <li>I AM NATURALLY WISE</li>
+                  <li>I HAVE A CRAZY SENSE OF HUMOUR</li>
+              </ol>
+          </div>
+          <div class="dropcontent">
+              <p style="font-size:15px;font-style:arial;color:gray;padding:0% 30%">From Dharamgard ,Kalahandi ,Odisha.I was born on 1st August 1998.I have completed my schooling from El Nissi Mission School , Zion nagar Dharamgarh. Obtaining a cummulative grade point average of 10. I have completed my senior secendary education from Vikas Residential School, Bargarh obtaining a percentage of 92%. Currently i am pursuing my undergraduate bachelors degree in Instrumentation and Electronics Engineering in College of Engineering and Technology, Bhubaneswar.My hobbies are making crafts , doing inovvative things like Iot , robotics etc.I am very fun loving , joyous  and hardworking kind of person .  
+              </p>
+          </div>
+        </div><br>
+        <br><br>
+        <div style="margin:5% 10%">
+          <h3> MY CONTACT</h3>
+        <i class="fa fa-map-marker" style="width:30px"></i>BHUBANESWAR,ODISHA<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 9439328715<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: anishaagrawalindian@gmail.com
+      </div>
+      <footer style=" display:inline;padding:0% 40%">
+       <a href="https://www.linkedin.com/in/anisha-agrawal-916b9b147/"> <i class="fa fa-linkedin" style="font-size:50px;padding:0px px"></i></a>
+         <a href="https://www.linkedin.com/in/anisha-agrawal-916b9b147/"><i class="fa fa-github"style="font-size:50px;padding:0px 0px"></i></a>
+                                                 
+       </footer>
+
+    </body>
+</html>
